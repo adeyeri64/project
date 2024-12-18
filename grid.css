@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    height: 500px;
+    width: 500px;
+}
+.grid-items{
+    border: 2px sandybrown;
+    border-radius: 10px;
+}
